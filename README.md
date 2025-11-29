@@ -133,3 +133,9 @@ WHERE transaction_id IS NULL
    OR cogs IS NULL
    OR total_sale IS NULL;
 ```
+
+### ✔ Validating Data Types
+
+- Ensured sale_date was in correct format (YYYY-MM-DD)
+
+- Ensured all numeric fields were correctly parsed
