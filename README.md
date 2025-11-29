@@ -139,3 +139,8 @@ WHERE transaction_id IS NULL
 - Ensured sale_date was in correct format (YYYY-MM-DD)
 
 - Ensured all numeric fields were correctly parsed
+
+ ## 🔍 Data Exploration
+
+### ✔ Total Sales Records
+
