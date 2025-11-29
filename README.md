@@ -1,4 +1,4 @@
-# Retail_sales_
+
 # 🛍️ Retail Sales Analysis using MySQL  
 
 This project focuses on performing end-to-end **data cleaning**, **exploration**, and **SQL-based analysis** on a retail sales dataset.  
