@@ -111,6 +111,20 @@ SELECT DISTINCT category FROM retail_sales;
 
 ## 📘 Business Questions & SQL Answers
 
-### Q1.Retrieve sales made on a specific date
+### The project answers 10 real-world retail business questions such as:
+
+📘 1. Sales on a specific day
+📘 2. Clothing orders with quantity ≥4 for November 2022
+📘 3. Total sales by category
+📘 4. Avg age of Beauty customers
+📘 5. High-value transactions (>1000 sale)
+📘 6. Transaction count by gender per category
+📘 7. Best-selling month in each year (using RANK + CTE)
+📘 8. Top 5 customers by total sale
+📘 9. Unique customers by category
+📘 10. Orders by shift (Morning, Afternoon, Evening)
+
+All queries are available in poject1_retail_sales.sql.
+
 
 
