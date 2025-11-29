@@ -89,6 +89,8 @@ WHERE transaction_id IS NULL
 
 - Ensured all numeric fields were correctly parsed
 
+---
+
  ## 🔍 Data Exploration
 
 ### ✔ Total Sales Records
@@ -103,6 +105,9 @@ SELECT COUNT(DISTINCT customer_id) FROM retail_sales;
 ```sql
 SELECT DISTINCT category FROM retail_sales;
 ```
+
+---
+
 
 ## 📘 Business Questions & SQL Answers
 
