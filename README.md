@@ -143,4 +143,20 @@ WHERE transaction_id IS NULL
  ## 🔍 Data Exploration
 
 ### ✔ Total Sales Records
+```sql
+SELECT COUNT(*) FROM retail_sales;
+```
+### ✔ Unique Customers
+```sql
+SELECT COUNT(DISTINCT customer_id) FROM retail_sales;
+```
+### ✔ Categories Available
+```sql
+SELECT DISTINCT category FROM retail_sales;
+```
+
+## 📘 Business Questions & SQL Answers
+
+### Q1.Retrieve sales made on a specific date
+
 
