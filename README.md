@@ -105,7 +105,7 @@ Key cleaning operations included:
   ALTER TABLE retail_sales MODIFY quantiy INT NULL;
 
 ### ✔ Imputing Missing Age Values
-
+```sql
 Used average age to replace NULLs:
 UPDATE retail_sales
 SET age = (
@@ -115,6 +115,6 @@ SET age = (
     ) AS t
 )
 WHERE age IS NULL;
-
+```
 
 
