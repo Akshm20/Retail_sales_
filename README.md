@@ -124,7 +124,7 @@ SELECT DISTINCT category FROM retail_sales;
 -  9. Unique customers by category
 -  10. Orders by shift (Morning, Afternoon, Evening)
 
-### All queries are available in poject1_retail_sales.sql.
+- **All queries are available in poject1_retail_sales.sql.**
 
 
 
