@@ -105,8 +105,8 @@ Key cleaning operations included:
   ALTER TABLE retail_sales MODIFY quantiy INT NULL;
 
 ### ✔ Imputing Missing Age Values
-```sql
 Used average age to replace NULLs:
+```sql
 UPDATE retail_sales
 SET age = (
     SELECT avg_age FROM (
@@ -117,4 +117,19 @@ SET age = (
 WHERE age IS NULL;
 ```
 
-
+### ✔ Removing Corrupted Rows
+Deleted rows where any critical column was NULL:
+```sql
+DELETE FROM retail_sales
+WHERE transaction_id IS NULL
+   OR sale_date IS NULL
+   OR sale_time IS NULL
+   OR customer_id IS NULL
+   OR gender IS NULL
+   OR age IS NULL
+   OR category IS NULL
+   OR quantiy IS NULL
+   OR price_per_unit IS NULL
+   OR cogs IS NULL
+   OR total_sale IS NULL;
+```
