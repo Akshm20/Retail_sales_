@@ -126,5 +126,43 @@ SELECT DISTINCT category FROM retail_sales;
 
 - **All queries are available in poject1_retail_sales.sql.**
 
+---
 
+
+## 📈 Results Summary / Insights
+
+### 1. Best-Selling Month Per Year
+
+- 2022: July had the highest average sale
+- 2023: February had the highest average sale
+
+### 2. Customer Behavior
+
+- Clothing and Electronics categories had the highest customer engagement
+- Beauty products were popular among customers aged mid-20s to mid-30s
+- Average age of Beauty customers: ~32 years
+
+### 3. Category Sales
+
+- Clothing contributed the highest number of transactions
+- Electronics contributed some of the highest-value orders
+- Beauty had consistent but lower order values
+
+### 4. High-value Transactions
+
+- 1000+ total sale transactions were mostly Electronics-related
+- These help identify premium customers
+
+### 5. Purchase Timing (Shift Analysis)
+
+- Majority of transactions occurred in the Afternoon and Evening
+- Morning sales were comparatively lower
+
+
+---
+
+# 🧑‍💻 Author
+## Akshata
+**This project is part of my portfolio, showcasing the SQL skills essential for data analyst roles. If you have any questions, feedback, or would like to collaborate, feel free to get in touch!** 
+  
 
